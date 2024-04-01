@@ -16,13 +16,13 @@ while (playAgin) {
         let { userGuess } = answers;
         console.log(`User Guess: ${userGuess} \t Correct Answer: ${systemgeneratedNo}`);
         if (userGuess === systemgeneratedNo) {
-            console.log(`Correct Answer!👏 Congratulations You Win🥳`);
+            console.log(`Correct Answer! Congratulations You Win`);
             noTries = 0;
         }
         else {
-            console.log(`Wrong Answer!☹️ Try Again. Better Luck Next Time!`);
+            console.log(`Wrong Answer!☹ Try Again. Better Luck Next Time!`);
             if (systemgeneratedNo > answers.userGuess) {
-                console.log("Think Higher!🤔");
+                console.log("Think Higher!");
             }
             else {
                 console.log("Think Lower!🤔");
